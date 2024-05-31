@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff6b6b, #f7d794, #1dd1a1);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px; /* Reduce max-width */
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background: linear-gradient(135deg, #1dd1a1, #10ac84);
+    color: #fff;
+    padding: 8px; /* Reduce padding */
+    border-radius: 10px 10px 0 0;
+    font-size: 1.1em; /* Reduce font size */
+}
+
+nav {
+    margin: 8px 0; /* Reduce margin */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 4px; /* Reduce margin */
+}
+
+nav ul li a {
+    color: #10ac84;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-size: 0.85em; /* Reduce font size */
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 8px; /* Reduce padding */
+    margin: 8px 0; /* Reduce margin */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 0.85em; /* Reduce font size */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 70px; /* Reduce size */
+    height: 70px; /* Reduce size */
+    object-fit: cover;
+    margin-bottom: 8px; /* Reduce margin */
+    border: 3px solid #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.details h3 {
+    border-bottom: 2px solid #10ac84;
+    padding-bottom: 5px;
+    margin-bottom: 8px; /* Reduce margin */
+    color: #10ac84;
+    transition: color 0.3s ease;
+    font-size: 0.9em; /* Reduce font size */
+}
+
+.details p {
+    margin-bottom: 8px; /* Reduce margin */
+}
+
+.details h3:hover {
+    color: #ff6b6b;
+}
+
+a {
+    color: #10ac84;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6b6b;
+}
