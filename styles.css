@@ -26,7 +26,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 100%;
-    max-width: 750px; /* Reduce max-width */
+    max-width: 600px; /* Reduce max-width */
     margin: 10px;
     text-align: center;
     padding: 10px;
